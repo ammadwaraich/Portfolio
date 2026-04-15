@@ -1,0 +1,205 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:linear-gradient(135deg,#0f172a,#020617);
+color:white;
+scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#0b1328;
+}
+
+.logo{
+font-size:28px;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:40px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#cbd5f5;
+font-size:18px;
+}
+
+.nav-links a:hover{
+color:#22c55e;
+}
+
+
+/* HERO */
+
+.hero{
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+padding:80px 20px;
+gap:10px;
+}
+
+.hero h1{
+font-size:60px;
+margin:0;
+}
+
+.role{
+font-size:40px;
+color:#22c55e;
+margin-top:10px;
+min-height:50px;
+}
+
+.hero p{
+max-width:600px;
+margin-top:15px;
+font-size:20px;
+color:#cbd5f5;
+}
+
+
+/* BUTTONS */
+
+.buttons{
+margin-top:30px;
+display:flex;
+gap:20px;
+}
+
+.buttons a{
+text-decoration:none;
+display:inline-block;
+}
+
+.btn{
+padding:14px 30px;
+font-size:18px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.primary{
+background:#22c55e;
+border:none;
+color:white;
+}
+
+.outline{
+background:transparent;
+border:2px solid #22c55e;
+color:#22c55e;
+}
+
+.outline:hover{
+background:#22c55e;
+color:white;
+}
+
+
+/* IMAGE */
+
+.hero-image{
+margin-top:60px;
+}
+
+.hero-image img{
+width:350px;
+border-radius:20px;
+border:4px solid #22c55e;
+}
+
+
+/* SECTIONS */
+
+.section{
+padding:100px 20px;
+text-align:center;
+}
+
+
+/* PROJECT CARDS */
+
+.project-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.project-card{
+background:#0b1328;
+padding:30px;
+border-radius:10px;
+width:250px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-5px);
+}
+
+
+/* INFO CARDS */
+
+.info-card{
+background:#0b1328;
+padding:35px;
+border-radius:10px;
+max-width:650px;
+margin:auto;
+margin-top:40px;
+transition:0.3s;
+}
+
+.info-card:hover{
+transform:translateY(-5px);
+}
+
+
+/* SKILLS */
+
+.skills{
+list-style:none;
+padding:0;
+text-align:left;
+}
+
+.skills li{
+margin:12px 0;
+font-size:18px;
+color:#cbd5f5;
+}
+
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.navbar{
+padding:20px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.role{
+font-size:28px;
+}
+
+.hero-image img{
+width:250px;
+}
+
+}
